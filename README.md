@@ -4,7 +4,7 @@
 
 This repository contains multiple AI-driven projects designed to aid in the medical field. The goal of these projects is to assist healthcare professionals by automating tasks related to patient follow-ups, health outcome predictions, medical conversations, and summaries. Below is a brief description of each project in this repository.
 
-1)Lung_Cancer_Level_Prediction:
+# 1) Lung_Cancer_Level_Prediction:
 
 This project predicts the severity or stage of lung cancer based on patient data using machine learning models. It utilizes K-Nearest Neighbors (KNN) and Random Forest Classifier to analyze key medical            attributes such as age, air pollution exposure, genetic risk, smoking history, etc. and symptoms to assess cancer progression. The dataset used for project consists of 1000 patient records with 25 features.       Data preprocessing includes handling missing values, encoding categorical variables, and normalizing numerical features. Model performance is evaluated using accuracy scores, confusion matrix, and                 classification reports.
       
