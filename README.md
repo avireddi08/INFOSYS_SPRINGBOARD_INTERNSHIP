@@ -24,7 +24,7 @@ This project analyzes doctor-patient conversations to extract insights such as p
    
 This project implements a dashboard that provides interactive visualizations and insights from medical conversation data. The dashboard includes various metrics such as sentiment distribution, condition severity, and conversation analysis. The goal is to provide healthcare professionals with a quick overview of patient interactions. The project is built using Python, with Streamlit for dashboard development, Pandas and NumPy for data processing, NLTK for NLP tasks, TextBlob for sentiment analysis, and Matplotlib, Seaborn, and Plotly for visualizations.
 
-Dashboard Demo: 
+Dashboard Demo: https://github.com/user-attachments/assets/a7ffb1b4-5b78-4a2f-a82e-dff36119a129
 
 # 4. Medical_Summary_Generator:
    
