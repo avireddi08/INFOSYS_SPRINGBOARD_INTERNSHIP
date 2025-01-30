@@ -34,3 +34,7 @@ This project focuses on automatically generating concise and informative medical
    
 This project automates patient follow-up scheduling using Cal.com's API, ensuring timely and efficient appointment management based on patient severity levels. The system prioritizes high-risk patients by scheduling follow-ups at shorter intervals while assigning standard follow-ups for lower-risk cases. The project is implemented using Python, with Cal.com API for scheduling. This system enhances healthcare management by ensuring prompt follow-ups and improving patient outcomes.
 
+# License
+
+This project is licensed under the MIT License.
+
