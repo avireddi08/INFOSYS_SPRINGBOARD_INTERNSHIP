@@ -18,15 +18,18 @@ This project provides valuable insights into lung cancer risk assessment and can
 
 2. Medical_Conversation_Analysis:
    
-This project analyzes doctor-patient conversations to extract insights such as predicting patient conditions, identifying medical terms, and detecting sentiment. It uses Natural Language Processing (NLP) techniques for text preprocessing, age and gender extraction, and sentiment analysis. Conversations are classified into severity levels (High, Medium, Low, Normal) based on medical keywords, and sentiment polarity is analyzed to understand emotional trends. The processed data is stored for further use and analysis.
+This project analyzes doctor-patient conversations to extract insights such as predicting patient conditions, identifying medical terms, and detecting sentiment. It uses Natural Language Processing (NLP) techniques, including tokenization, stopword removal, stemming, lemmatization for text preprocessing. Regular expressions and machine learning models are used for age and gender extraction, while TextBlob applied for sentiment analysis. Conversations are classified into severity levels (High, Medium, Low, Normal) based on medical keywords, and sentiment polarity is analyzed to understand emotional trends. The project is implemented using Python, with libraries such as NLTK, Pandas, Matplotlib, and Seaborn for data processing, visualization, and analysis. The processed data is stored as csv file for further use and analysis
 
 3. Medical_Conversation_Dashboard:
    
-This project develops an interactive dashboard to visualize and analyze doctor-patient conversation data, providing insights into sentiment distribution, condition severity trends, Etc. The dashboard features interactive charts, word clouds, and severity-based conversation filters, enabling healthcare professionals to explore patient interactions efficiently. It is Built using Python, the project leverages Pandas, NumPy for data processing, NLTK, SpaCy for NLP tasks, TextBlob for sentiment analysis, and Matplotlib, Seaborn, Plotly for visualizations. The interactive dashboard is developed using Dash and Streamlit to ensure an intuitive and user-friendly experience.
+This project implements a dashboard that provides interactive visualizations and insights from medical conversation data. The dashboard includes various metrics such as sentiment distribution, condition severity, and conversation analysis. The goal is to provide healthcare professionals with a quick overview of patient interactions. The project is built using Python, with Streamlit for dashboard development, Pandas and NumPy for data processing, NLTK for NLP tasks, TextBlob for sentiment analysis, and Matplotlib, Seaborn, and Plotly for visualizations.
 
-6. Medical_Summary_Generator:
-This project generates concise medical summaries from patient conversations or records. It processes medical texts, extracts key information, and produces summaries that can be used by healthcare providers for quick patient reference or decision-making.
 
-7. Patient_FollowUp_Scheduler:
-This project automates patient follow-up scheduling using Cal.com's API. It schedules appointments based on patient severity levels (e.g., high-risk patients) and sends reminders to doctors or support staff. The system helps ensure timely follow-up care for patients, improving healthcare management and patient outcomes.
+4. Medical_Summary_Generator:
+   
+This project focuses on automatically generating concise and informative medical summaries from patient conversations or medical records. It processes unstructured medical text, extracts key details and generates structured summaries that can assist healthcare providers in quick decision-making and patient management. The system utilizes Natural Language Processing (NLP) techniques, including text summarization algorithm (abstractive summarization), and keyword extraction method to highlight the most relevant information. The project is implemented using Python, with NLTK for text processing, T5-based transformer model for advanced summarization, and Pandas for handling structured data.
+
+5. Patient_FollowUp_Scheduler:
+   
+This project automates patient follow-up scheduling using Cal.com's API, ensuring timely and efficient appointment management based on patient severity levels. The system prioritizes high-risk patients by scheduling follow-ups at shorter intervals while assigning standard follow-ups for lower-risk cases. The project is implemented using Python, with Cal.com API for scheduling. This system enhances healthcare management by ensuring prompt follow-ups and improving patient outcomes.
 
